@@ -1,0 +1,29 @@
+population,age,gene,n_cells,n_detected,frac_detected
+Working,3-month-old stage,Gja1,240,117,0.4875
+Working,3-month-old stage,Scn5a,240,30,0.125
+Working,3-month-old stage,Kcnj2,240,24,0.1
+Working,3-month-old stage,Cacna1c,240,45,0.1875
+Working,3-month-old stage,Dsp,240,96,0.4
+Working,3-month-old stage,Kcnq1,240,54,0.225
+Working,3-month-old stage,Gapdh,240,231,0.9625
+Working,20-month-old stage and over,Gja1,186,72,0.3870967741935484
+Working,20-month-old stage and over,Scn5a,186,12,0.06451612903225806
+Working,20-month-old stage and over,Kcnj2,186,0,0.0
+Working,20-month-old stage and over,Cacna1c,186,12,0.06451612903225806
+Working,20-month-old stage and over,Dsp,186,51,0.27419354838709675
+Working,20-month-old stage and over,Kcnq1,186,12,0.06451612903225806
+Working,20-month-old stage and over,Gapdh,186,186,1.0
+Conduction,3-month-old stage,Gja1,135,120,0.8888888888888888
+Conduction,3-month-old stage,Scn5a,135,66,0.4888888888888889
+Conduction,3-month-old stage,Kcnj2,135,48,0.35555555555555557
+Conduction,3-month-old stage,Cacna1c,135,51,0.37777777777777777
+Conduction,3-month-old stage,Dsp,135,114,0.8444444444444444
+Conduction,3-month-old stage,Kcnq1,135,87,0.6444444444444445
+Conduction,3-month-old stage,Gapdh,135,135,1.0
+Conduction,20-month-old stage and over,Gja1,24,21,0.875
+Conduction,20-month-old stage and over,Scn5a,24,15,0.625
+Conduction,20-month-old stage and over,Kcnj2,24,6,0.25
+Conduction,20-month-old stage and over,Cacna1c,24,12,0.5
+Conduction,20-month-old stage and over,Dsp,24,18,0.75
+Conduction,20-month-old stage and over,Kcnq1,24,15,0.625
+Conduction,20-month-old stage and over,Gapdh,24,24,1.0

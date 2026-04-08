@@ -1,0 +1,20 @@
+# Raw datasets (too large for GitHub)
+ptb-xl/
+chapman-shaoxing/
+code15/
+
+# Computed h5ad files and partial/temp results
+results/*.h5ad
+results/beta_features_partial.csv
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+
+# Claude internal
+.claude/
