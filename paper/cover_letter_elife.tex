@@ -1,0 +1,45 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue!70!black}
+
+\signature{Theodor Spiro\\Independent Researcher, Paris, France\\theospirin@gmail.com}
+\address{Theodor Spiro\\Paris, France\\theospirin@gmail.com}
+
+\begin{document}
+\begin{letter}{Editorial Board\\eLife Sciences Publications}
+
+\opening{Dear Editors,}
+
+I am submitting the manuscript ``Spectral Exponents of the Twelve-Lead ECG Reveal the Anatomy of Cardiac Conduction Disorders and a Bifurcation Between Aging and Disease'' for consideration as a Research Article at \textit{eLife}.
+
+\textbf{Summary.} I apply IRASA---a method from computational neuroscience---to extract the spectral exponent $\beta$ from the aperiodic component of 412,730 twelve-lead ECGs across three continents. The central finding is a cross-population invariant: despite factor-of-two variation in absolute $\beta$-values across equipment, the twelve-lead $\beta$-vector distinguishes complete left from complete right bundle branch block with AUC = 0.982 on the German discovery cohort, AUC = 0.982 on a Chinese replication cohort, and AUC = 0.979 on a Brazilian replication cohort. This geometry is determined by the anatomy of the conduction system and is therefore invariant across populations.
+
+\textbf{Why eLife.} I believe this work aligns with \textit{eLife}'s mission in three ways:
+
+\begin{enumerate}
+\item \textbf{Rigorous replication over novelty.} The core claim rests on identical replication across three independent datasets spanning three continents, recording systems, and populations---rather than on a single-dataset discovery. The analysis also includes an honest null result: $\beta$ does not independently predict mortality (adjusted HR = 1.02, $p = 0.83$), which I report because it calibrates what $\beta$ is (a diagnostic marker of conduction anatomy) and what it is not (a prognostic biomarker).
+
+\item \textbf{Interpretability over performance.} The 12-lead $\beta$-vector provides an interpretable, physics-based characterization of conduction system integrity---each subtype produces a spatial fingerprint that maps directly onto lesion anatomy. This complements rather than competes with deep learning approaches that achieve marginal AUC improvements at the cost of interpretability.
+
+\item \textbf{Open science.} All three datasets are publicly available. The analysis code is fully open: a Kaggle notebook for reproducibility (\url{https://www.kaggle.com/code/theodorspiro/the-heartbeat-at-the-edge-of-chaos}) and a GitHub repository (\url{https://github.com/mool32/ecg-spectral-exponents}). A preprint is available on bioRxiv [DOI to be added].
+\end{enumerate}
+
+\textbf{Calibration of claims.} The manuscript explicitly separates replicated findings (diagnostic landscape, spatial fingerprints, CLBBB vs.\ CRBBB AUC) from single-dataset observations (aging bifurcation, subclinical detection) and null results (mortality, absolute $\beta$ equipment-dependence). The aging trajectory did not replicate externally and is presented as a PTB-XL observation requiring independent validation.
+
+\textbf{Suggested reviewers:}
+\begin{itemize}
+\item Bradley Voytek (UC San Diego) --- expertise in $1/f$ neural dynamics and IRASA methodology
+\item Ary L. Goldberger (Harvard / Beth Israel) --- originator of the ``loss of complexity'' framework in cardiac physiology
+\item Nils Strodthoff (Fraunhofer HHI) --- creator of the PTB-XL benchmark and deep learning ECG analysis
+\item Antonio H. Ribeiro (Uppsala University) --- creator of the CODE-15\% dataset and DNN-based ECG age prediction
+\item Hagen Schmidt (Radboud University) --- recent work on IRASA-based ECG spectral slopes and aging
+\end{itemize}
+
+Thank you for considering this manuscript.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
